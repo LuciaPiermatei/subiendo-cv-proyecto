@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ .container{
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    max-width: 1000px;
+    background-color: gainsboro;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+ }
+
+ .left-side{
+    position: relative;
+    background: peachpuff;
+    padding: 40px;
+ }
+
+ .perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+ }
+.perfil .imagen{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+ .perfil .imagen img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+.contacto{
+    padding-top: 40px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacto ul{
+    position: relative;
+}
+.contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+ }
+
+ .contacto ul li .icono{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+ }
+ .educacion{
+    padding-top: 30px
+   }
+.educacion {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+ }
+ .right-side{
+    position: relative;
+    background: whitesmoke;
+    padding: 40px;
+ }
+
+ .nombre{
+    margin-bottom: 30px;
+ }
+
+ .about:last-child{
+    margin-bottom: 0;
+ }
+ .nombre h1{
+    color: black;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 1px;
+ }
+
+ .nombre h2{
+    padding-top: 20px;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-weight:400; 
+    border-bottom: solid 2px black;
+    padding: 10px;
+    padding-left: 5px;
+   }
+
+   .educacion h4,h5 {
+    position: relative;
+    list-style: none;
+    margin: 3px 0;
+ }
+ .title2{
+    padding-left: 20px;
+    letter-spacing: 2px;
+   }
+   .about .box{
+    padding-top: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-bottom: 5px
+}
+.about2 .curso .idioma{
+    letter-spacing: 1px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+ margin: 10px;
+   }
